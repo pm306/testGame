@@ -1,0 +1,29 @@
+/my-game
+├── /node_modules
+├── /public
+│   ├── index.html
+│   ├── manifest.json
+├── /src
+│   ├── /components
+│   │   ├── /Player
+│   │   │   ├── Player.tsx
+│   │   │   ├── Player.styles.ts
+│   │   ├── /Enemy
+│   │   │   ├── Enemy.tsx
+│   │   │   ├── Enemy.styles.ts
+│   │   ├── /Dungeon
+│   │   │   ├── Dungeon.tsx
+│   │   │   ├── Dungeon.styles.ts
+│   │   ├── /Item
+│   │   │   ├── Item.tsx
+│   │   │   ├── Item.styles.ts
+│   ├── /contexts
+│   │   ├── GameContext.tsx
+│   ├── /utils
+│   │   ├── gameEngine.ts
+│   │   ├── helpers.ts
+│   ├── App.tsx
+│   ├── index.tsx
+│   ├── App.css
+├── package.json
+├── tsconfig.json
